@@ -1,7 +1,7 @@
 import requests
 from dotenv import load_dotenv
-import os// new import for environment variable loading
-load_dotenv()//.env is added to the project root
+import os #new import for environment variable loading
+load_dotenv() #.env is added to the project root
 
 api_key= os.getenv("open_weather_api_key")
 
